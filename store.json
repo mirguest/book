@@ -12,6 +12,17 @@
 }
 ,
 {
+    "isbn": "9787111436737",
+    "title": "利用Python进行数据分析",
+    "links": [
+        "https://item.jd.com/12398725.html"
+    ],
+    "room": "计算中心130",
+    "position": "柜子书架",
+    "tags": ["Prog/Python"]
+}
+,
+{
     "isbn": "9787115147318",
     "title": "Unix环境高级编程",
     "links": [
