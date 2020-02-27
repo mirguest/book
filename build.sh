@@ -1,7 +1,8 @@
 #!/bin/bash
 
 function print-header() {
-    echo "["
+    echo "{"
+    echo '"data": ['
 }
 
 function print-element() {
@@ -21,6 +22,7 @@ EOF
 
 function print-tailer() {
     echo "]"
+    echo "}"
 }
 
 
