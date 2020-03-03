@@ -86,4 +86,13 @@ douban() {
 
 }
 
+import-to-douban() {
+    local f
+    local isbn
+    for f in $(ls $STOREDIR); do
+        isbn=${f%.json}
+        douban $isbn
+    done
+}
+
 $*
