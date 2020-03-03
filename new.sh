@@ -95,4 +95,14 @@ import-to-douban() {
     done
 }
 
+## remove windows EOL
+remove-windows-eol() {
+
+    local f
+    for f in $(ls $STOREDIR); do
+        sed -i 's/\r//g' $STOREDIR/$f
+    done
+
+}
+
 $*
