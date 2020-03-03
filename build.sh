@@ -37,4 +37,4 @@ function main() {
     print-tailer
 }
 
-main > store.json
+main | sed -e 's/\r//g' > store.json
