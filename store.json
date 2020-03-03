@@ -1,17 +1,6 @@
 {
 "data": [
 {
-    "isbn": "9721115422525",
-    "title": "Spark高级数据分析 第2版",
-    "links": [
-        "https://item.jd.com/12371964.html"
-    ],
-    "room": "计算中心130",
-    "position": "桌面",
-    "tags": ["Big data"]
-}
-,
-{
     "isbn": "9787111095071",
     "title": "设计模式（英文版）",
     "links": [
@@ -526,6 +515,17 @@
     "room": "计算中心130",
     "position": "柜子书架",
     "tags": ["Machine Learning"]
+}
+,
+{
+    "isbn": "9787115482525",
+    "title": "Spark高级数据分析 第2版",
+    "links": [
+        "https://item.jd.com/12371964.html"
+    ],
+    "room": "计算中心130",
+    "position": "桌面",
+    "tags": ["Big data"]
 }
 ,
 {
