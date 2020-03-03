@@ -44,5 +44,21 @@ isbn() {
     FN=$fn ISBN=$isbn create-template
 }
 
+## create an record from CSV
+# 
+#    编号,书名,作者,ISBN,价格,京东链接,位置/地点,相对位置,Label:
+#    1    2    3    4    5    6        7         8        9
+##
+csv() {
+    local line="$*"
+    local _isbn="$(echo "$line" | cut -d, -f4)"
+    local _title="$(echo "$line" | cut -d, -f2)"
+    local _link="$(echo "$line" | cut -d, -f6)"
+    local _room="$(echo "$line" | cut -d, -f7)"
+    local _pos="$(echo "$line" | cut -d, -f8)"
+    local _tag="$(echo "$line" | cut -d, -f9)"
+
+    TITLE="${_title}" LINK="${_link}" ROOM="${_room}" POSITION="${_pos}" TAG="${_tag}" isbn "${_isbn}"
+}
 
 $*
