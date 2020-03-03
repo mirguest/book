@@ -7,7 +7,12 @@ function print-header() {
 
 function print-element() {
     local f=$1
-    cat $f
+
+    local isbn=$(basename $f)
+
+    local doubanurl="$(cat douban/$isbn | jq '.alt')"
+    
+    cat $f | jq '.links += ['${doubanurl}']'
 }
 
 function print-element-sep() {
