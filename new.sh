@@ -14,7 +14,7 @@ fi
 ## create from template
 function create-template() {
     local fn=${FN}
-    cat <<EOF > $fn
+    cat <<EOF | sed -e 's/\r//g' > $fn
 {
     "isbn": "${ISBN}",
     "title": "${TITLE}",
@@ -103,6 +103,20 @@ remove-windows-eol() {
         sed -i 's/\r//g' $STOREDIR/$f
     done
 
+}
+
+## add a new entry all toghter
+#    input: CSV
+#    编号,书名,作者,ISBN,价格,京东链接,位置/地点,相对位置,Label:
+#    1    2    3    4    5    6        7         8        9
+all() {
+    local line="$*"
+    local _isbn="$(echo "$line" | cut -d, -f4)"
+    
+    # create an entry in store/
+    csv "$line"
+    # create an entry in douban/
+    douban "${_isbn}"
 }
 
 $*
