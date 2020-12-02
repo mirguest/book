@@ -58,6 +58,10 @@ function create-template-using-csv() {
     local _pos="$(echo "$line" | cut -d, -f8)"
     local _tag="$(echo "$line" | cut -d, -f9)"
 
+    if [ -z "${_isbn}" ]; then
+        echo "Missing ISBN. The current line is: $line"
+    fi
+    
     TITLE="${_title}" LINK="${_link}" ROOM="${_room}" POSITION="${_pos}" TAG="${_tag}" create-template-using-isbn "${_isbn}"
 }
 
@@ -97,4 +101,8 @@ import-from-cvs() {
     done < $filename
 }
 
-$*
+if [ -z "$*" ]; then
+    import-from-cvs
+else
+    $*
+fi
