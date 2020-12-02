@@ -10,8 +10,10 @@ function print-element() {
 
     local isbn=$(basename $f)
 
-    local doubanurl="$(cat douban/$isbn | jq '.alt')"
-    
+    local doubanurl
+    if [ -f "douban/$isbn" ]; then
+        doubanurl="$(cat douban/$isbn | jq '.alt')"
+    fi
     cat $f | jq '.links += ['${doubanurl}']'
 }
 
