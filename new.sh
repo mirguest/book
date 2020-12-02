@@ -60,6 +60,10 @@ function create-template-using-csv() {
 
     if [ -z "${_isbn}" ]; then
         echo "Missing ISBN. The current line is: $line"
+        return
+    fi
+    if [ "${_isbn}" = "ISBN" ]; then
+        return
     fi
     
     TITLE="${_title}" LINK="${_link}" ROOM="${_room}" POSITION="${_pos}" TAG="${_tag}" create-template-using-isbn "${_isbn}"
