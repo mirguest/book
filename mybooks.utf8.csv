@@ -1,0 +1,78 @@
+编号,书名,作者,ISBN,价格,京东链接,位置/地点,相对位置,Label:
+1,Linux内核设计与实现,,9787111338291,69,https://item.jd.com/10664953.html,计算中心130,柜子书架,OS/Linux
+2,Linux命令详解词典,,9787111233275,59,,计算中心130,柜子底1层左2,OS/Linux
+3,Unix网络编程：卷2进程间通信,,9787115215116,89,https://item.jd.com/11728727.html,计算中心130,桌面,OS/Linux
+4,Unix环境高级编程,,9787115147318,128,https://item.jd.com/11469694.html,计算中心130,桌面,OS/Linux
+5,C程序设计语言（英文版第2版）,,9787111196266,35,https://item.jd.com/10057446.html,计算中心130,柜子底1层左1,Prog/C
+6,嗨翻C语言,,9787115318848,99,https://item.jd.com/11310979.html,计算中心130,柜子底1层左2,Prog/C
+7,C++程序设计语言（第1-3部分）,,9787111539414,139,https://item.jd.com/11986384.html,计算中心130,柜子底1层左1,Prog/C++
+8,C++程序设计语言（第4部分）,,9787111544395,89,https://item.jd.com/12034136.html,计算中心130,柜子底1层左1,Prog/C++
+9,C++沉思录,,9787115171788,55,https://item.jd.com/10062652.html,计算中心130,柜子底1层左1,Prog/C++
+10,Effective C++,,9787121123320,65,https://item.jd.com/10393318.html,计算中心130,柜子底1层左1,Prog/C++
+11,C++编程规范,,9787115351357,39,https://item.jd.com/11896170.html,计算中心130,柜子底1层左1,Prog/C++
+12,C++ templates,,9787115312815,89,https://item.jd.com/11216941.html,计算中心130,柜子底1层左1,Prog/C++
+13,C++程序设计语言（第1-3部分）英文版,,9787111523864,169,https://item.jd.com/11871865.html,计算中心130,柜子底1层左1,Prog/C++
+14,C++程序设计语言（第4部分）英文版,,9787111524878,89,https://item.jd.com/11871869.html,计算中心130,柜子底1层左1,Prog/C++
+15,设计模式（英文版）,,9787111095071,35,https://item.jd.com/10057319.html,计算中心130,柜子底1层左2,Software
+16,人月神话,,9787302155676,48,https://item.jd.com/10155758.html,计算中心130,柜子底1层左2,Software
+17,数据结构（c语言版）,,9787111187981,48,https://item.jd.com/10057835.html,计算中心130,柜子底1层左2,Alg & Data
+18,UML用户指南,,9787115148339,49,,计算中心130,柜子底1层左2,Software
+19,计算机程序的构造和解释,,9787111135104,45,https://item.jd.com/10057478.html,计算中心130,柜子底1层左2,Alg & Data
+20,利用Python进行数据分析,,9787111436737,89/119,https://item.jd.com/12398725.html,计算中心130,柜子书架,Prog/Python
+21,数据结构与算法分析--C语言描述,,9787111127482,35,https://item.jd.com/10057441.html,计算中心130,柜子底1层左2,Alg & Data
+22,编程珠玑（英文版第2版）,,9787115232601,39,https://item.jd.com/10354462.html,计算中心130,柜子底1层左2,Alg & Data
+23,OpenGL编程指南（第九版）,,9787111575115,139,https://item.jd.com/12234196.html,计算中心130,柜子底1层左2,Graphics
+24,OpenGL ES3.0编程指南,,9787111489153,79,https://item.jd.com/11655699.html,计算中心130,柜子底1层左2,Graphics
+25,OpenGL编程指南（第八版）,,9787111481133,129,https://item.jd.com/11566287.html,计算中心130,柜子底1层左2,Graphics
+26,C++标准库（第二版）,,9787121260896,186,https://item.jd.com/11706352.html,计算中心130,柜子底1层左1,Prog/C++
+27,CUDA并行程序设计,,9787111448617,99,https://item.jd.com/11389858.html,计算中心130,柜子底1层右2,Parallel
+28,CUDA专家手册,,9787111472650,85,https://item.jd.com/11533367.html,计算中心130,柜子底1层右2,Parallel
+29,MIC高性能计算编程指南,,9787517003380,45,https://item.jd.com/11148870.html,计算中心130,柜子底1层右2,Parallel
+30,大规模并行处理器编程实战（第2版）,,9787302342724,59.8,https://item.jd.com/11378389.html,计算中心130,柜子底1层右2,Parallel
+31,OpenCL异构计算,,9787302333951,89,https://item.jd.com/11314377.html ,计算中心130,柜子底1层右2,Parallel
+32,OpenCL实战,,9787115347343,89,https://item.jd.com/11488856.html,计算中心130,柜子底1层右2,Parallel
+33,Intel Xeon Phi协处理器高性能编程指南,,9787115347848,79,https://item.jd.com/11434920.html,计算中心130,柜子底1层右2,Parallel
+34,编程珠玑（续）,,9787115251510,35,https://item.jd.com/10641968.html,计算中心130,柜子底1层左2,Alg & Data
+35,代码大全,,9787121022982,128,https://item.jd.com/10875285.html,计算中心130,柜子底1层右2,Software
+36,算法导论,,9787111407010,128,https://item.jd.com/11144230.html,计算中心130,柜子底1层右2,Alg & Data
+37,计算机体系结构：量化研究方法,,9787115297655,109,https://item.jd.com/11152134.html,计算中心130,柜子书架,
+38,深入理解并行编程,,9787121315084,129,https://item.jd.com/12109309.html,计算中心130,柜子书架,Graphics
+39,机器学习，周志华,周志华,9787302423287,88,https://item.jd.com/11867803.html,计算中心130,柜子书架,Machine Learning
+40,深度学习入门：基于Python的理论与实现,,9787115485588,59,https://item.jd.com/12403048.html,计算中心130,柜子书架,Machine Learning
+41,DEEP LEARNING深度学习,,9787115461476,168,https://item.jd.com/12128543.html,计算中心130,柜子书架,Machine Learning
+42,人工智能（第2版）,,9787115488435,108,https://item.jd.com/12401871.html,计算中心130,柜子书架,Machine Learning
+43,Python深度学习,,9787115488763,119,https://item.jd.com/12128543.html,计算中心130,柜子书架,Machine Learning
+44,高性能MySQL,,9787121198854,128,https://item.jd.com/11220393.html,计算中心130,柜子书架,Database
+45,SQL学习指南,,9787115383440,49,https://item.jd.com/11615439.html,计算中心130,柜子书架,Database
+46,GAN实战,,9787121342547,65,https://item.jd.com/12365087.html,计算中心130,柜子书架,Machine Learning
+47,Docker开发指南,,9787115449573,79,https://item.jd.com/12174050.html,计算中心130,小书架,Container
+48,Kubernetes经典实例,,9787519823993,48,https://item.jd.com/12446081.html,计算中心130,桌面,Container
+49,深入浅出数据分析,,,88,https://item.jd.com/11127959.html,计算中心130,,Big data
+50,人件,,9787111474364,69,https://item.jd.com/11520202.html,计算中心130,柜子底1层左1,Software
+51,分析模式（英文版）,,9787115239488,59,,计算中心130,柜子底1层左1,Software
+52,设计模式解析,,9787115240989,55,,计算中心130,柜子书架,Software
+53,MFC Windows程序设计,,,128,https://item.jd.com/10155690.html,计算中心130,柜子底2层,OS/Windows
+54,Ceph Cookbook,,9787121290169,79,https://item.jd.com/11947099.html,计算中心130,柜子底1层左1,Storage
+55,深度探索C++对象模型,,9787121149528,69,https://item.jd.com/10909788.html,计算中心130,柜子底1层左1,Prog/C++
+56,Git （影印版）,,9787564141967,62,https://item.jd.com/11615420.html,计算中心130,柜子书架,
+57,计算机程序设计艺术 卷1:基本算法,,9787115360670,198,https://item.jd.com/11848569.html,计算中心130,柜子底1层左2,Alg & Data
+58,交互式计算机图形学,,9787121169021,89,https://item.jd.com/11900864.html,计算中心130,桌面,Graphics
+59,Ceph分布式存储学习指南,,9787111562795,49,https://item.jd.com/12060477.html,计算中心130,柜子底1层左1,Storage
+60,计算机网络：自顶向下方法,,9787111453789,79,https://item.jd.com/12392810.html,计算中心130,柜子底1层右1,Network
+61,Linux/Unix系统编程手册（上、下两册）,,,158,https://item.jd.com/11383763.html,计算中心130,,OS/Linux
+62,计算机图形学,,9787121246142,89,https://item.jd.com/11591287.html,计算中心130,桌面,Graphics
+63,Unix/Linux系统管理手册,,9787115279002,128,https://item.jd.com/11003166.html,计算中心130,桌面,OS/Linux
+64,Kubernetes权威指南：从Docker到Kubernetes实践全接触（第4版）,,9787121362354,140.7,https://item.jd.com/12601558.html,计算中心130,柜子书架,Container
+65,生成对抗网络入门指南,,9787111610045,56.9,https://item.jd.com/12452945.html,计算中心130,柜子书架,Machine Learning
+66,TensorFlow神经网络编程,,9787111611783,56.9,https://item.jd.com/12452931.html,计算中心130,柜子书架,Machine Learning
+67,Kubernetes in Action中文版,,9787121349959,124,https://item.jd.com/12510666.html,计算中心130,柜子书架,Container
+68,TensorFlow深度学习实战,,9787111615750,81.7,https://item.jd.com/12524838.html,计算中心130,柜子书架,Machine Learning
+69,分布式机器学习：算法、理论与实践,,9787111609186,73.4,https://item.jd.com/12444377.html,计算中心130,柜子书架,Machine Learning
+70,Spark快速大数据分析,,9787115403094,59/46.6,https://item.jd.com/11782888.html,计算中心130,桌面,Big data
+71,TensorFlow学习指南：深度学习系统构建详解,,9787111600725,46.9,https://item.jd.com/12384265.html,计算中心130,柜子书架,Machine Learning
+72,Spark高级数据分析 第2版,,9721115422525,69/56.4,https://item.jd.com/12371964.html,计算中心130,桌面,Big data
+73,大话存储后传,,9787302464921,44.5,https://item.jd.com/12169446.html,计算中心130,桌面,Storage
+74,大话存储终极版,,9787302381242,74.5,https://item.jd.com/11586843.html,计算中心130,桌面,Storage
+75,程序设计实践（英文版）,,9787115407863,49,https://item.jd.com/11836053.html,计算中心130,柜子底1层右1,Alg & Data
+,,,,,,,,
+,,,,,,,,
