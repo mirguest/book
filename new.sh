@@ -119,4 +119,16 @@ all() {
     douban "${_isbn}"
 }
 
+import-from-cvs() {
+    local filename=${1}; shift
+    if [ -z "$filename" ]; then
+        filename=mybooks.utf8.csv
+    fi
+
+    local line
+    while read line; do
+        all "$line"
+    done < $filename
+}
+
 $*
