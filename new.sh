@@ -4,7 +4,6 @@
 
 ## Global INFO
 export STOREDIR=$(pwd)/store
-export DOUBANDIR=$(pwd)/douban
 
 if [ ! -d "$STOREDIR" ]; then
     echo "Failed to locate store dir: $STOREDIR"
@@ -60,39 +59,6 @@ function create-template-using-csv() {
     local _tag="$(echo "$line" | cut -d, -f9)"
 
     TITLE="${_title}" LINK="${_link}" ROOM="${_room}" POSITION="${_pos}" TAG="${_tag}" create-template-using-isbn "${_isbn}"
-}
-
-## douban API
-function create-template-douban() {
-    curl 'https://douban.uieee.com/v2/book/isbn/'$ISBN > $FN
-}
-
-
-## create an record (douban API) from isbn
-function create-template-using-douban() {
-    local isbn=$1
-    if [ -z "$isbn" ]; then
-        echo "Missing ISBN"
-        return
-    fi
-
-    local fn=$DOUBANDIR/${isbn}.json
-    if [ -f "$fn" ]; then
-        echo "Record $fn already exists"
-        return
-    fi
-
-    FN=$fn ISBN=$isbn create-template-douban
-
-}
-
-function import-to-douban() {
-    local f
-    local isbn
-    for f in $(ls $STOREDIR); do
-        isbn=${f%.json}
-        douban $isbn
-    done
 }
 
 ## remove windows EOL
