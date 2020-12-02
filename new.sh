@@ -12,7 +12,7 @@ if [ ! -d "$STOREDIR" ]; then
 fi
 
 ## create from template
-function create-template() {
+function create-template-json-in-store() {
     local fn=${FN}
     cat <<EOF | sed -e 's/\r//g' > $fn
 {
@@ -29,7 +29,7 @@ EOF
 }
 
 ## create an record from ISBN
-isbn() {
+function create-template-using-isbn() {
     local isbn=$1
     if [ -z "$isbn" ]; then
         echo "Missing ISBN"
@@ -42,7 +42,7 @@ isbn() {
         return
     fi
 
-    FN=$fn ISBN=$isbn create-template
+    FN=$fn ISBN=$isbn create-template-json-in-store
 }
 
 ## create an record from CSV
@@ -50,7 +50,7 @@ isbn() {
 #    编号,书名,作者,ISBN,价格,京东链接,位置/地点,相对位置,Label:
 #    1    2    3    4    5    6        7         8        9
 ##
-csv() {
+function create-template-using-csv() {
     local line="$*"
     local _isbn="$(echo "$line" | cut -d, -f4)"
     local _title="$(echo "$line" | cut -d, -f2)"
@@ -59,7 +59,7 @@ csv() {
     local _pos="$(echo "$line" | cut -d, -f8)"
     local _tag="$(echo "$line" | cut -d, -f9)"
 
-    TITLE="${_title}" LINK="${_link}" ROOM="${_room}" POSITION="${_pos}" TAG="${_tag}" isbn "${_isbn}"
+    TITLE="${_title}" LINK="${_link}" ROOM="${_room}" POSITION="${_pos}" TAG="${_tag}" create-template-using-isbn "${_isbn}"
 }
 
 ## douban API
@@ -69,7 +69,7 @@ function create-template-douban() {
 
 
 ## create an record (douban API) from isbn
-douban() {
+function create-template-using-douban() {
     local isbn=$1
     if [ -z "$isbn" ]; then
         echo "Missing ISBN"
@@ -86,7 +86,7 @@ douban() {
 
 }
 
-import-to-douban() {
+function import-to-douban() {
     local f
     local isbn
     for f in $(ls $STOREDIR); do
@@ -96,7 +96,7 @@ import-to-douban() {
 }
 
 ## remove windows EOL
-remove-windows-eol() {
+function remove-windows-eol() {
 
     local f
     for f in $(ls $STOREDIR); do
@@ -109,14 +109,14 @@ remove-windows-eol() {
 #    input: CSV
 #    编号,书名,作者,ISBN,价格,京东链接,位置/地点,相对位置,Label:
 #    1    2    3    4    5    6        7         8        9
-all() {
+function all-in-oneline() {
     local line="$*"
     local _isbn="$(echo "$line" | cut -d, -f4)"
     
     # create an entry in store/
-    csv "$line"
+    create-template-using-csv "$line"
     # create an entry in douban/
-    douban "${_isbn}"
+    # create-template-using-douban "${_isbn}"
 }
 
 import-from-cvs() {
@@ -127,7 +127,7 @@ import-from-cvs() {
 
     local line
     while read line; do
-        all "$line"
+        all-in-oneline "$line"
     done < $filename
 }
 
