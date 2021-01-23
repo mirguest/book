@@ -248,6 +248,19 @@
 }
 ,
 {
+  "isbn": "9787111562511",
+  "title": "函数式算法设计珠玑",
+  "links": [
+    "https://item.jd.com/12066989.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "函数式编程"
+  ]
+}
+,
+{
   "isbn": "9787111562795",
   "title": "Ceph分布式存储学习指南",
   "links": [
@@ -335,6 +348,58 @@
   "position": "柜子书架",
   "tags": [
     "Machine Learning"
+  ]
+}
+,
+{
+  "isbn": "9787111631293",
+  "title": "量子编程基础",
+  "links": [
+    "https://item.jd.com/12568763.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "量子计算"
+  ]
+}
+,
+{
+  "isbn": "9787111641988",
+  "title": "C++函数式编程",
+  "links": [
+    "https://item.jd.com/12612787.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "函数式编程"
+  ]
+}
+,
+{
+  "isbn": "9787111646686",
+  "title": "人人可懂的量子计算",
+  "links": [
+    "https://item.jd.com/12834378.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "量子计算"
+  ]
+}
+,
+{
+  "isbn": "9787111666295",
+  "title": "初识量子计算",
+  "links": [
+    "https://item.jd.com/12752063.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "量子计算"
   ]
 }
 ,
@@ -569,6 +634,19 @@
   "position": "柜子书架",
   "tags": [
     "Database"
+  ]
+}
+,
+{
+  "isbn": "9787115400413",
+  "title": "函数式编程思维",
+  "links": [
+    "https://item.jd.com/11763847.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "函数式编程"
   ]
 }
 ,
@@ -972,6 +1050,32 @@
   "position": "柜子书架",
   "tags": [
     ""
+  ]
+}
+,
+{
+  "isbn": "9787564183257",
+  "title": "函数式Python编程（第2版 影印版 英文版）",
+  "links": [
+    "https://item.jd.com/12538075.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "函数式编程"
+  ]
+}
+,
+{
+  "isbn": "9787564188290",
+  "title": "量子计算机程序设计：基本算法和代码示例（影印版 英文版）",
+  "links": [
+    "https://item.jd.com/12652675.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "量子计算"
   ]
 }
 ,
