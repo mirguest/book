@@ -25,6 +25,9 @@ function create-template-json-in-store() {
     "tags": ["${TAG}"]
 }
 EOF
+    if [ -f "$fn" ]; then
+        echo "Record $fn is created"
+    fi
 }
 
 ## create an record from ISBN
@@ -101,6 +104,12 @@ import-from-cvs() {
 
     local line
     while read line; do
+        # trim the windows CRLF
+        line=$(echo "$line" | tr -d '\r')
+        if [ -z "$line" ]; then
+            continue
+        fi
+        # echo $line
         all-in-oneline "$line"
     done < $filename
 }
