@@ -1,6 +1,45 @@
 {
 "data": [
 {
+  "isbn": "9787030169860",
+  "title": "实验物理中的概率和统计（第2版）",
+  "links": [
+    "https://item.jd.com/12050373.html"
+  ],
+  "room": "办公室",
+  "position": "桌面",
+  "tags": [
+    "数据分析"
+  ]
+}
+,
+{
+  "isbn": "9787030347312",
+  "title": "实验数据分析（上册）",
+  "links": [
+    "https://item.jd.com/12147426.html"
+  ],
+  "room": "办公室",
+  "position": "桌面",
+  "tags": [
+    "数据分析"
+  ]
+}
+,
+{
+  "isbn": "9787030349576",
+  "title": "实验数据分析（下册）",
+  "links": [
+    "https://item.jd.com/12052473.html"
+  ],
+  "room": "办公室",
+  "position": "桌面",
+  "tags": [
+    "数据分析"
+  ]
+}
+,
+{
   "isbn": "9787111095071",
   "title": "设计模式（英文版）",
   "links": [
@@ -192,6 +231,19 @@
   "position": "柜子底1层左2",
   "tags": [
     "Graphics"
+  ]
+}
+,
+{
+  "isbn": "9787111497714",
+  "title": "统计学习导论：基于R应用",
+  "links": [
+    "https://item.jd.com/11699746.html"
+  ],
+  "room": "办公室",
+  "position": "桌面",
+  "tags": [
+    "数据分析"
   ]
 }
 ,
@@ -924,6 +976,19 @@
 }
 ,
 {
+  "isbn": "9787200143539",
+  "title": "崔玉涛宝贝健康公开课（升级版）",
+  "links": [
+    "https://item.jd.com/12456894.html"
+  ],
+  "room": "办公室",
+  "position": "桌面",
+  "tags": [
+    "育儿"
+  ]
+}
+,
+{
   "isbn": "9787302150428",
   "title": "MFC Windows程序设计",
   "links": [
@@ -1015,6 +1080,32 @@
 }
 ,
 {
+  "isbn": "9787302557395",
+  "title": "统计学习要素：机器学习中的数据挖掘、推断与预测（第2版）",
+  "links": [
+    "https://item.jd.com/13071766.html"
+  ],
+  "room": "办公室",
+  "position": "桌面",
+  "tags": [
+    "数据分析"
+  ]
+}
+,
+{
+  "isbn": "9787510084508",
+  "title": "统计学习基础（第2版）",
+  "links": [
+    "https://item.jd.com/11582556.html"
+  ],
+  "room": "办公室",
+  "position": "桌面",
+  "tags": [
+    "数据分析"
+  ]
+}
+,
+{
   "isbn": "9787517003380",
   "title": "MIC高性能计算编程指南",
   "links": [
@@ -1037,6 +1128,19 @@
   "position": "桌面",
   "tags": [
     "Container"
+  ]
+}
+,
+{
+  "isbn": "9787521711837",
+  "title": "养育女孩（新版）",
+  "links": [
+    "https://item.jd.com/12636873.html"
+  ],
+  "room": "办公室",
+  "position": "桌面",
+  "tags": [
+    "育儿"
   ]
 }
 ,
@@ -1076,6 +1180,19 @@
   "position": "柜子",
   "tags": [
     "量子计算"
+  ]
+}
+,
+{
+  "isbn": "9787571409005",
+  "title": "美国儿科学会育儿百科（第7版）",
+  "links": [
+    "https://item.jd.com/12997526.html"
+  ],
+  "room": "办公室",
+  "position": "桌面",
+  "tags": [
+    "育儿"
   ]
 }
 ,
