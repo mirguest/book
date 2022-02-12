@@ -443,6 +443,19 @@
 }
 ,
 {
+  "isbn": "9787111665977",
+  "title": "机器学习实战：基于Scikit-Learn、Keras和TensorFlow（原书第2版）",
+  "links": [
+    "https://item.jd.com/12732035.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "数据分析"
+  ]
+}
+,
+{
   "isbn": "9787111666295",
   "title": "初识量子计算",
   "links": [
@@ -452,6 +465,32 @@
   "position": "柜子3层",
   "tags": [
     "量子计算"
+  ]
+}
+,
+{
+  "isbn": "9787111697466",
+  "title": "时间序列预测：基于机器学习和Python实现",
+  "links": [
+    "https://item.jd.com/13063069.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "数据分析"
+  ]
+}
+,
+{
+  "isbn": "9787111699378",
+  "title": "Kubeflow学习指南：生产级机器学习系统实现",
+  "links": [
+    "https://item.jd.com/13604486.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "数据分析"
   ]
 }
 ,
@@ -755,6 +794,19 @@
 }
 ,
 {
+  "isbn": "9787115473271",
+  "title": "Kafka权威指南(图灵出品)",
+  "links": [
+    "https://item.jd.com/12270295.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "数据分析"
+  ]
+}
+,
+{
   "isbn": "9787115482525",
   "title": "Spark高级数据分析 第2版",
   "links": [
@@ -803,6 +855,19 @@
   "position": "柜子4层",
   "tags": [
     "Machine Learning"
+  ]
+}
+,
+{
+  "isbn": "9787115573216",
+  "title": "机器学习流水线实战",
+  "links": [
+    "https://item.jd.com/13503948.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "数据分析"
   ]
 }
 ,
@@ -933,6 +998,19 @@
   "position": "柜子4层",
   "tags": [
     "Parallel"
+  ]
+}
+,
+{
+  "isbn": "9787121329913",
+  "title": "RabbitMQ实战指南(博文视点出品)",
+  "links": [
+    "https://item.jd.com/12277834.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "数据分析"
   ]
 }
 ,
@@ -1128,6 +1206,19 @@
   "position": "柜子4层",
   "tags": [
     "Parallel"
+  ]
+}
+,
+{
+  "isbn": "9787519821968",
+  "title": "数据密集型应用系统设计 [Designing Data-Intensive Applications]",
+  "links": [
+    "https://item.jd.com/12437624.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "数据分析"
   ]
 }
 ,
