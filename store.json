@@ -807,6 +807,19 @@
 }
 ,
 {
+  "isbn": "9787115479938",
+  "title": "C++ Templates 第2版 英文版(异步图书出品)",
+  "links": [
+    "https://item.jd.com/12349529.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "Prog/C++"
+  ]
+}
+,
+{
   "isbn": "9787115482525",
   "title": "Spark高级数据分析 第2版",
   "links": [
