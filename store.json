@@ -872,6 +872,19 @@
 }
 ,
 {
+  "isbn": "9787115573551",
+  "title": "C++并发编程实战（第2版）",
+  "links": [
+    "https://item.jd.com/13517424.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "Prog/C++"
+  ]
+}
+,
+{
   "isbn": "9787121022982",
   "title": "代码大全",
   "links": [
@@ -1184,6 +1197,32 @@
 }
 ,
 {
+  "isbn": "9787302576839",
+  "title": "Python异步编程实战：基于AIO的全栈开发技术",
+  "links": [
+    "https://item.jd.com/13228468.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "Prog/Python"
+  ]
+}
+,
+{
+  "isbn": "9787302596790",
+  "title": "C++20实践入门（第6版）",
+  "links": [
+    "https://item.jd.com/13661034.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "Prog/C++"
+  ]
+}
+,
+{
   "isbn": "9787510084508",
   "title": "统计学习基础（第2版）",
   "links": [
@@ -1297,6 +1336,19 @@
   "position": "柜子3层",
   "tags": [
     "量子计算"
+  ]
+}
+,
+{
+  "isbn": "9787564190545",
+  "title": "asyncio实例集锦",
+  "links": [
+    "https://item.jd.com/12983910.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "Prog/Python"
   ]
 }
 ,
