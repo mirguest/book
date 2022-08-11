@@ -118,6 +118,32 @@
 }
 ,
 {
+  "isbn": "9787111251217",
+  "title": "编译原理 第2版",
+  "links": [
+    "https://item.jd.com/10058776.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "Compiler"
+  ]
+}
+,
+{
+  "isbn": "9787111326748",
+  "title": "编译原理（英文版·第2版）",
+  "links": [
+    "https://item.jd.com/10490900.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "Compiler"
+  ]
+}
+,
+{
   "isbn": "9787111338291",
   "title": "Linux内核设计与实现",
   "links": [
@@ -300,6 +326,32 @@
 }
 ,
 {
+  "isbn": "9787111544937",
+  "title": "深入理解计算机系统（原书第3版）",
+  "links": [
+    "https://item.jd.com/12006637.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "Compiler"
+  ]
+}
+,
+{
+  "isbn": "9787111561279",
+  "title": "深入理解计算机系统（英文版·第3版）",
+  "links": [
+    "https://item.jd.com/12155718.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "Compiler"
+  ]
+}
+,
+{
   "isbn": "9787111562511",
   "title": "函数式算法设计珠玑",
   "links": [
@@ -413,6 +465,19 @@
   "position": "柜子3层",
   "tags": [
     "量子计算"
+  ]
+}
+,
+{
+  "isbn": "9787111631972",
+  "title": "LLVM编译器实战教程",
+  "links": [
+    "https://item.jd.com/12689212.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "Compiler"
   ]
 }
 ,
@@ -807,6 +872,19 @@
 }
 ,
 {
+  "isbn": "9787115476883",
+  "title": "现代编译原理 C语言描述 修订版(图灵出品)",
+  "links": [
+    "https://item.jd.com/12343414.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "Compiler"
+  ]
+}
+,
+{
   "isbn": "9787115479938",
   "title": "C++ Templates 第2版 英文版(异步图书出品)",
   "links": [
@@ -1080,6 +1158,32 @@
 }
 ,
 {
+  "isbn": "9787121399725",
+  "title": "BPF之巅：洞悉Linux系统和应用性能(博文视点出品)",
+  "links": [
+    "https://item.jd.com/12769029.html"
+  ],
+  "room": "办公室",
+  "position": "柜子",
+  "tags": [
+    "Prog"
+  ]
+}
+,
+{
+  "isbn": "9787121435874",
+  "title": "性能之巅（第2版）：系统、企业与云可观测性(博文视点出品)",
+  "links": [
+    "https://item.jd.com/13199661.html"
+  ],
+  "room": "办公室",
+  "position": "桌面",
+  "tags": [
+    "Prog"
+  ]
+}
+,
+{
   "isbn": "9787200143539",
   "title": "崔玉涛宝贝健康公开课（升级版）",
   "links": [
@@ -1230,6 +1334,19 @@
   ],
   "room": "办公室",
   "position": "柜子",
+  "tags": [
+    "Prog/C++"
+  ]
+}
+,
+{
+  "isbn": "9787302602132",
+  "title": "C++20高级编程(第5版)",
+  "links": [
+    "https://item.jd.com/13706858.html"
+  ],
+  "room": "办公室",
+  "position": "桌面",
   "tags": [
     "Prog/C++"
   ]
